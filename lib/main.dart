@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      home: Text("shin"), 
+    Scaffold(
+      appBar: AppBar(
+        title: const Text("Ms Shinoo"),
+        backgroundColor: const Color.fromARGB(255, 54, 39, 189),
+      ),
     ),
   );
 }
